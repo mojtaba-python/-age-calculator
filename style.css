@@ -2,27 +2,37 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 .container{
     width: 100%;
     height: 100vh;
     text-align: center;
-   background-color: #2c353f;
+   background:linear-gradient(271deg, #020f18, #3e8ec4);
     justify-content: center;
+    display: flex;
+    font-family: Vazir;
     
 }
-
+#box{
+    width: 300px;
+    height: 400px;
+    margin-top: 1rem;
+    border: 1px solid #9b9b9b;
+    background-color: #ffffff1c;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px 1px rgba(255, 255, 255, 0.3);
+  
+}
 #input{
     width: 130px;
     height: 30px;
-
-
 }
 
 .btn{
     font-size: medium;
-    background-color: rgb(44, 53, 63);
-    color: aliceblue;
+    background-color: #03a9f400;
+    color: white;
     outline: none;
     border: 1px solid #fff;
     border-radius: 5px;
@@ -30,7 +40,7 @@
     cursor: pointer;
 }
 .btn:hover{
-    background-color: rgb(35, 63, 6);
+    background-color: rgb(37 57 73);
     color: aliceblue;
 }
 
